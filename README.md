@@ -7,7 +7,9 @@ Packages: bs4 (Beautiful Soup), SQL Lite, SQl Studio, requests
 The main.py file webscrapes olympicdatabase.com and saves the information in a nested dictionary.
 
 main.py:
+    
     Methods:
+    
          -  main(): 
               Entry point of the program. Start here. All other functions are called form main().
 
@@ -39,7 +41,9 @@ main.py:
               
 The olympic_db file saves the dictionary holding the olympic data in a databse with SQLite.
 
+
 olympic_db:
+    
     Imports the main.py module.
     
     Uses for loops to loop through the nested dictionary and query the data.
