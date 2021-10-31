@@ -7,7 +7,7 @@ Packages:
       - Web scrape with Beautiful soup package, 
       - Save the data to the 'olympics' table within the SQLite database
       
-The main.py file webscrapes olympicdatabase.com and saves the information in a nested dictionary.
+The main.py module webscrapes olympicdatabase.com and saves the information in a nested dictionary.
 
 main.py:
     
