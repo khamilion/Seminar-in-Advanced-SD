@@ -14,7 +14,7 @@ main.py:
     Methods:
     
          -  main(): 
-              Entry point of the program. Start here. All other functions are called form main().
+              Entry point of the program. Start here. All other functions are called from main().
 
          -  get_data(url):
               Uses the url paramater to make a request to the website with requets package
