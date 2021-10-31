@@ -1,5 +1,8 @@
 # Seminar-in-Advanced-SD
-Packages: bs4 (Beautiful Soup), SQL Lite, SQl Studio, requests
+Packages: 
+
+        bs4 (Beautiful Soup), SQL Lite, SQl Studio, requests
+        
       - import requests for HTTP requets
       - Web scrape with Beautiful soup package, 
       - Save the data to the olympics table with SQLite 
