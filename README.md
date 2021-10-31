@@ -31,7 +31,7 @@ main.py:
                This method uses beautiful soup to parse the table list for the 10 countries participating in the olympics and their medals. It holds this
                informatin in a dictionary.
                
-          -look_through_rows(tables, name):
+          - look_through_rows(tables, name):
               (table) paramater is a list holding the scraped information from the table website using bs4.
               
               (name) paramater holds the name of the country 
@@ -44,9 +44,9 @@ The olympic_db file saves the dictionary holding the olympic data in a databse w
 
 olympic_db:
     
-    Imports the main.py module.
+    - Imports the main.py module.
     
-    Uses for loops to loop through the nested dictionary and query the data.
+    - Uses for loops to loop through the nested dictionary and query the data.
     
     
    <img width="934" alt="Screen Shot 2021-10-31 at 2 05 20 PM" src="https://user-images.githubusercontent.com/70460601/139597884-aa2a9678-677c-4d89-8305-0898e81efea4.png">
