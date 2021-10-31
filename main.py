@@ -129,7 +129,7 @@ def get_olympic_year(tables):
 def main():
 
     # total number of olympics to collect information about
-    num_of_olympics = 10  # TODO change back to 10 olympics
+    num_of_olympics = 10
     i = 1
 
     # url for the medal list
