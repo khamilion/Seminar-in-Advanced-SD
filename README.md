@@ -22,25 +22,25 @@ main.py:
               returns: returns the text off of the page from the url
               
          - get_olympic_year(tables):
-               table paramater is a list holding the scraped information from the table website using bs4.
+               (table) paramater is a list holding the web scraped information from the table on the website using bs4.
                
-               This method loops through the the table list to find the text stating the name of the olympic event, such as "Tokyo 2020" (using Beuatiful soup).
+               This method loops through the the (table) list to find the text stating the name of the olympic event, such as "Tokyo 2020" (using Beuatiful soup).
                
                returns: two variables holding the name of the olympic event and the name of the next olympic event.
                
           - get_countries(tables):
-               (table) paramater is a list holding the scraped information from the table website using bs4.
+               (table) paramater is a list holding the scraped information from the table on the website using bs4.
                
-               This method uses beautiful soup to parse the table list for the 10 countries participating in the olympics and their medals. It holds this
-               informatin in a dictionary.
+               This method uses beautiful soup to parse the (table) parameter for the 10 specific countries participating in the olympics and their medals. 
+               It holds this informatin in a dictionary.
                
           - look_through_rows(tables, name):
-              (table) paramater is a list holding the scraped information from the table website using bs4.
+              (table) paramater is a list holding the scraped information from the table on the website using bs4.
               
-              (name) paramater holds the name of the country 
+              (name) paramater holds the name of the specified country 
               
-              This method is called from within get_countries() as an assistant method. it looks through the tables list to find the information
-              for the name of the country that was passed as an argument.
+              This method is called from within get_countries() as an assistant method. It loops through the tables parameter to find the medal
+              count for the (name) holding the country name.
               
 The olympic_db file saves the dictionary holding the olympic data in a databse with SQLite.
 
