@@ -2,7 +2,8 @@
 
 Overview:
         
-        This program uses web scraping to collect information from the olympiandatabase.com. Its purpose is to find 10 different countries and collect their medal
+        This program uses web scraping to collect information from the olympiandatabase.com. 
+        Its purpose is to find 10 different countries and collect their medal
         count at 10 different Olympic events and save this information in a database. 
         
    
