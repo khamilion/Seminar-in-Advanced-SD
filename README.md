@@ -24,7 +24,7 @@ main.py:
          - get_olympic_year(tables):
                (table) paramater is a list holding the web scraped information from the table on the website using bs4.
                
-               This method loops through the the (table) list to find the text stating the name of the olympic event, such as "Tokyo 2020" (using Beuatiful soup).
+               This method loops through the the (table) list to find the text stating the name of the olympic event, such as "Tokyo 2020" (using Beautiful soup).
                
                returns: two variables holding the name of the olympic event and the name of the next olympic event.
                
@@ -32,7 +32,7 @@ main.py:
                (table) paramater is a list holding the scraped information from the table on the website using bs4.
                
                This method uses beautiful soup to parse the (table) parameter for the 10 specific countries participating in the olympics and their medals. 
-               It holds this informatin in a dictionary.
+               It holds this information in a dictionary.
                
           - look_through_rows(tables, name):
               (table) paramater is a list holding the scraped information from the table on the website using bs4.
