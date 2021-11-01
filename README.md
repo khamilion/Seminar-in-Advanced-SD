@@ -40,7 +40,7 @@ main.py:
               (name) paramater holds the name of the specified country 
               
               This method is called from within get_countries() as an assistant method. It loops through the tables parameter to find the medal
-              count for the (name) holding the country name.
+              count for the (name) parameter holding the country name.
               
 The olympic_db file saves the dictionary holding the olympic data in a databse with SQLite.
 
